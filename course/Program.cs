@@ -211,30 +211,45 @@ namespace course
             //}
 
             //-----------------------------------------------
-            //activiti, guessing game
+            //activiti, guessing game duda
 
 
-            string sWord = "quack";
-            string guess = "";
-            int numGuess = 1;
+            //string sWord = "quack";
+            //string guess = null;
+            //int numGuess = 1;
 
-            while (guess != sWord && numGuess <= 4)
-            {
-                Console.Write("what sound does the duck make: ");
-                guess = Console.ReadLine();
-                numGuess++;
-            }
-            if (guess == sWord)
-            {
-                Console.WriteLine("you win");
-            }
-            else
-            {
-                Console.WriteLine("you lose");
+            //while (guess != sWord && numGuess <= 4)
+            //{
+            //    Console.Write("what sound does the duck make: ");
+            //    guess = Console.ReadLine();
+            //    numGuess++;
+            //}
+            //if (guess == sWord)
+            //{
+            //    Console.WriteLine("you win");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("you lose");
 
-            }
+            //}
 
 
+            //-----------------------------------------------
+            //for loop
+
+            //for(int i = 1; i <= 5; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //-----------------------------------------------
+            //Exponent Methods
+
+
+
+            //-----------------------------------------------
+            //Arrays the secuel or multidimensial arrays
 
 
 
@@ -245,6 +260,20 @@ namespace course
             Console.ReadLine();
             
 
+        }
+        
+        //-----------------------------------------------
+        //Exponent Methods
+        static int Exponent(int num, int exnum)
+        {
+            int result = 1;
+
+            for(int i = 0; i < exnum; i++)
+            {
+                result = result * num;
+            }
+
+            return result;
         }
 
         //-----------------------------------------------
