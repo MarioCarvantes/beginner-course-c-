@@ -194,48 +194,62 @@ namespace course
             //-----------------------------------------------
             //switch statements
 
-            Console.WriteLine(getDay(7));
+            //Console.WriteLine(getDay(2));
+
+
+            //-----------------------------------------------
+            //while loop, ciclos
+            int i = 1;
+            while( i <= 10)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+
+
+
 
             Console.ReadLine();
+            
 
         }
 
         //-----------------------------------------------
         //switch statements
-        static string getDay(int dayNum)
-        {       
-            string dayName = null;
+        //static string getDay(int dayNum)
+        //{       
+        //    string dayName = null;
 
-            switch (dayNum)
-            {
-                case 1:
-                    dayName= "sunday";
-                    break;
-                case 2:
-                    dayName = "Monday";
-                    break;
-                case 3:
-                    dayName = "tuesday";
-                    break;
-                case 4:
-                    dayName = "wednesday";
-                    break;
-                case 5:
-                    dayName = "thursday";
-                    break;
-                case 6:
-                    dayName = "friday";
-                    break;
-                case 7:
-                    dayName = "saturday";
-                    break;
-                default:
-                    dayName = "that character is not valid";
-                    break;
-            }
+        //    switch (dayNum)
+        //    {
+        //        case 1:
+        //            dayName= "sunday";
+        //            break;
+        //        case 2:
+        //            dayName = "Monday";
+        //            break;
+        //        case 3:
+        //            dayName = "tuesday";
+        //            break;
+        //        case 4:
+        //            dayName = "wednesday";
+        //            break;
+        //        case 5:
+        //            dayName = "thursday";
+        //            break;
+        //        case 6:
+        //            dayName = "friday";
+        //            break;
+        //        case 7:
+        //            dayName = "saturday";
+        //            break;
+        //        default:
+        //            dayName = "that character is not valid";
+        //            break;
+        //    }
 
-            return dayName;
-        }
+        //    return dayName;
+        //}
 
 
 
