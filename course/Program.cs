@@ -199,13 +199,16 @@ namespace course
 
             //-----------------------------------------------
             //while loop, ciclos
-            int i = 1;
-            while( i <= 10)
-            {
-                Console.WriteLine(i);
-                i++;
-            }
 
+            //int i = 1;
+            //while( i <= 10)
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //}
+
+            //-----------------------------------------------
+            //actviti, guessing game
 
 
 
