@@ -190,12 +190,53 @@ namespace course
             //    Console.WriteLine("OPERATOR ERROR, pls introduce one of next operators: +, -, /, *");
             //}
 
-            
 
+            //-----------------------------------------------
+            //switch statements
+
+            Console.WriteLine(getDay(7));
 
             Console.ReadLine();
 
         }
+
+        //-----------------------------------------------
+        //switch statements
+        static string getDay(int dayNum)
+        {       
+            string dayName = null;
+
+            switch (dayNum)
+            {
+                case 1:
+                    dayName= "sunday";
+                    break;
+                case 2:
+                    dayName = "Monday";
+                    break;
+                case 3:
+                    dayName = "tuesday";
+                    break;
+                case 4:
+                    dayName = "wednesday";
+                    break;
+                case 5:
+                    dayName = "thursday";
+                    break;
+                case 6:
+                    dayName = "friday";
+                    break;
+                case 7:
+                    dayName = "saturday";
+                    break;
+                default:
+                    dayName = "that character is not valid";
+                    break;
+            }
+
+            return dayName;
+        }
+
 
 
 
