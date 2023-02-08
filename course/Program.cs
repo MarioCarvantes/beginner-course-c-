@@ -163,9 +163,32 @@ namespace course
             //-----------------------------------------------
             //Calculator part 2, better calculator
 
+            //Console.Write("insert a number: ");
+            //double num = Convert.ToDouble(Console.ReadLine());
 
+            //Console.Write("insert a operator: ");
+            //string ope = Console.ReadLine();
 
+            //Console.Write("insert a second number: ");
+            //double num3 = Convert.ToDouble(Console.ReadLine());
 
+            //if(ope == "+")
+            //{
+            //   Console.WriteLine(num + num3);
+            //} else if (ope == "-")
+            //{
+            //    Console.WriteLine(num - num3);
+            //} else if(ope == "*")
+            //{
+            //    Console.WriteLine(num * num3);
+            //}else if(ope == "/")
+            //{
+            //    Console.WriteLine(num / num3);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("OPERATOR ERROR, pls introduce one of next operators: +, -, /, *");
+            //}
 
             
 
