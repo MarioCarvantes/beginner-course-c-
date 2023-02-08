@@ -158,7 +158,12 @@ namespace course
             //-----------------------------------------------
             //If statement part 2, comparisons
 
-            Console.WriteLine(maxNumber(100,70, 60));
+            //Console.WriteLine(maxNumber(100,70, 60));
+
+            //-----------------------------------------------
+            //Calculator part 2, better calculator
+
+
 
             Console.ReadLine();
 
@@ -167,24 +172,24 @@ namespace course
         //-----------------------------------------------
         //If statement part 2, comparisons
 
-         static int maxNumber(int num, int num2, int num3)
-        {
-            int result;
-            if (num >= num2 && num >= num3)
-            {
-                result = num;
-            } 
-            else if (num2 >= num && num2 >= num3)
-            {
-                result = num2;
-            }
-            else
-            {
-                result = num3;
-            }
+        //static int maxNumber(int num, int num2, int num3)
+        //{
+        //    int result;
+        //    if (num >= num2 && num >= num3)
+        //    {
+        //        result = num;
+        //    }
+        //    else if (num2 >= num && num2 >= num3)
+        //    {
+        //        result = num2;
+        //    }
+        //    else
+        //    {
+        //        result = num3;
+        //    }
 
-            return result;
-        }
+        //    return result;
+        //}
 
 
         //-----------------------------------------------
