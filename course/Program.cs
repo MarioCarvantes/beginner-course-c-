@@ -20,7 +20,7 @@ namespace course
             //Console.WriteLine("Hola mi nombre es " + NameProta);
             //Console.WriteLine("Tengo " + ProtaAge + " años");
             //NameProta= "Mario";
-            //Console.WriteLine(NameProta +  " le gusta a " );
+            //Console.WriteLine(NameProta +  " es joven " );
             //Console.WriteLine("");
             //Console.WriteLine("");
             //Console.ReadLine();
@@ -30,15 +30,15 @@ namespace course
             //DataTypes
 
             //for words
-            string Word = "Hello";
-            //for one letter
-            char grade = 'A';
-            //for integrals numbers
-            int Number = 10;
-            //for decimal numbers
-            double DecimalNumber = 5.5;
-            //true or false
-            bool isTrue = false;
+            //string Word = "Hello";
+            ////for one letter
+            //char grade = 'A';
+            ////for integrals numbers
+            //int Number = 10;
+            ////for decimal numbers
+            //double DecimalNumber = 5.5;
+            ////true or false
+            //bool isTrue = false;
 
 
             //-----------------------------------------------
@@ -135,29 +135,56 @@ namespace course
             //-----------------------------------------------
             //If statement
 
-            bool isMale = false;
-            bool isTall = true;
+            //bool isMale = false;
+            //bool isTall = false;
 
-            if (isMale && isTall)
-            {
-                Console.WriteLine("you are male and tall");
-            }else if (isMale && !isTall){
-                Console.WriteLine("you are a short male");
-            }
-            else if (!isMale && isTall)
-            {
-                Console.WriteLine("you are a tall someting");
-            }
-            else
-            {
-                Console.WriteLine("you are not male");
-            }
+            //if (isMale && isTall)
+            //{
+            //    Console.WriteLine("you are male and tall");
+            //}
+            //else if (isMale && !isTall)
+            //{
+            //    Console.WriteLine("you are a short male");
+            //}
+            //else if (!isMale && isTall)
+            //{
+            //    Console.WriteLine("you are a tall someting");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("you are not male");
+            //}
+
+            //-----------------------------------------------
+            //If statement part 2, comparisons
+
+            Console.WriteLine(maxNumber(100,70, 60));
 
             Console.ReadLine();
 
         }
 
+        //-----------------------------------------------
+        //If statement part 2, comparisons
 
+         static int maxNumber(int num, int num2, int num3)
+        {
+            int result;
+            if (num >= num2 && num >= num3)
+            {
+                result = num;
+            } 
+            else if (num2 >= num && num2 >= num3)
+            {
+                result = num2;
+            }
+            else
+            {
+                result = num3;
+            }
+
+            return result;
+        }
 
 
         //-----------------------------------------------
@@ -177,6 +204,8 @@ namespace course
         //    int result = num * num * num;
         //    return result;
         //}
+
+
 
 
 
