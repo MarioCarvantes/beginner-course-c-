@@ -172,16 +172,19 @@ namespace course
             //Console.Write("insert a second number: ");
             //double num3 = Convert.ToDouble(Console.ReadLine());
 
-            //if(ope == "+")
+            //if (ope == "+")
             //{
-            //   Console.WriteLine(num + num3);
-            //} else if (ope == "-")
+            //    Console.WriteLine(num + num3);
+            //}
+            //else if (ope == "-")
             //{
             //    Console.WriteLine(num - num3);
-            //} else if(ope == "*")
+            //}
+            //else if (ope == "*")
             //{
             //    Console.WriteLine(num * num3);
-            //}else if(ope == "/")
+            //}
+            //else if (ope == "/")
             //{
             //    Console.WriteLine(num / num3);
             //}
@@ -201,14 +204,41 @@ namespace course
             //while loop, ciclos
 
             //int i = 1;
-            //while( i <= 10)
+            //while (i <= 10)
             //{
             //    Console.WriteLine(i);
             //    i++;
             //}
 
             //-----------------------------------------------
-            //actviti, guessing game
+            //activiti, guessing game
+
+
+            string sWord = "quack";
+            string guess = "";
+            int numGuess = 1;
+
+            while (guess != sWord && numGuess <= 4)
+            {
+                Console.Write("what sound does the duck make: ");
+                guess = Console.ReadLine();
+                numGuess++;
+            }
+            if (guess == sWord)
+            {
+                Console.WriteLine("you win");
+            }
+            else
+            {
+                Console.WriteLine("you lose");
+
+            }
+
+
+
+
+
+
 
 
 
