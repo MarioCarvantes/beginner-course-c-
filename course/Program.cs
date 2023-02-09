@@ -74,14 +74,23 @@ namespace course
             //-----------------------------------------------
             //Calculator
 
-            //Console.Write("ingrese un numero: ");
-            //double FirtsNumber = Convert.ToDouble(Console.ReadLine());
-            //Console.Write("ingrese el segundo numero: ");
-            //double SecondNumber = Convert.ToDouble(Console.ReadLine());
+            try
+            {
 
-            //Console.WriteLine("su resultado es: " + (FirtsNumber + SecondNumber));
+            }
+            catch
+            {
 
-            //Console.ReadLine();
+            }
+            
+            Console.Write("ingrese un numero: ");
+            double FirtsNumber = Convert.ToDouble(Console.ReadLine());
+            Console.Write("ingrese el segundo numero: ");
+            double SecondNumber = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("su resultado es: " + (FirtsNumber + SecondNumber));
+
+            Console.ReadLine();
 
             //-----------------------------------------------
             //Mad libs Game
@@ -251,6 +260,12 @@ namespace course
             //-----------------------------------------------
             //Arrays the secuel or multidimensial arrays
 
+            //int[,] Grid =
+            //{
+            //    {1,2 }, {3,4}, {5,6}
+            //};
+
+            //Console.WriteLine(Grid[2,1]);
 
 
 
