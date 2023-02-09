@@ -74,23 +74,23 @@ namespace course
             //-----------------------------------------------
             //Calculator
 
-            try
-            {
+            //try
+            //{
+            //    Console.Write("ingrese un numero: ");
+            //    double FirtsNumber = Convert.ToDouble(Console.ReadLine());
+            //    Console.Write("ingrese el segundo numero: ");
+            //    double SecondNumber = Convert.ToDouble(Console.ReadLine());
 
-            }
-            catch
-            {
+            //    Console.WriteLine("su resultado es: " + (FirtsNumber + SecondNumber));
+            //}
+            //catch(Exception ex) 
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
 
-            }
-            
-            Console.Write("ingrese un numero: ");
-            double FirtsNumber = Convert.ToDouble(Console.ReadLine());
-            Console.Write("ingrese el segundo numero: ");
-            double SecondNumber = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("su resultado es: " + (FirtsNumber + SecondNumber));
 
-            Console.ReadLine();
+
 
             //-----------------------------------------------
             //Mad libs Game
@@ -267,6 +267,14 @@ namespace course
 
             //Console.WriteLine(Grid[2,1]);
 
+
+            //-----------------------------------------------
+            //classes and objects
+
+            Book namBook = new Book("algo", "some", 10);
+            
+
+            Console.WriteLine(namBook.pages);
 
 
 
